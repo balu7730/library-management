@@ -7,8 +7,6 @@ con = a.connect(host='localhost',
                 database='library',
                 auth_plugin='mysql_native_password')
 
-# Rest of your code...
-
 def addbook():
     bn=input("Enter Book name:")
     c=input("Enter book code:")
